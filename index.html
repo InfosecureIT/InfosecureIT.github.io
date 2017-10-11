@@ -4,12 +4,6 @@
 <title>Infosecure IT services</title>
 </head>
 <body style="background-color:#9966ff;">  
-var http = require('http');
-
-http.createServer(function (req, res) {
-    res.writeHead(200, {'Content-Type': 'text/plain'});
-    res.end('Hello World!');
-}).listen(8080); 
 <link rel="shortcut icond" href="#" />
 <h2 style="background-color:#f00000;"> Welcome to Infosecure Information Services Web Site </h2>     
 <hr \>
@@ -17,6 +11,12 @@ http.createServer(function (req, res) {
 //JavaScript code goes here
 alert('Click to learn more about our services');
 </script>
+var http = require('http');
+
+http.createServer(function (req, res) {
+    res.writeHead(200, {'Content-Type': 'text/plain'});
+    res.end('Hello World!');
+}).listen(8080); 
 <p> Our services are as follows </p>
 <ul>
 <li> <a href="opensource.html"> Implementation of Open Source ( You pay only to install - software is free ) Solutions </a> </li>
